@@ -1,0 +1,17 @@
+<h1>Let Node change Content</h1>
+
+<div>
+	<p id='demo'>Click the button to change this via ajax request over get to node.js</p>
+	<button type='button' onclick='submissionRequest()'>Change Content</button>	
+</div>
+<script> 
+	function submissionRequest() {
+		var xhttp = new XMLHttpRequest();
+		xhttp.open('GET', 'test');
+		xhttp.send();
+		xhttp.onload = function(){
+			document.getElementById('demo').innerHTML = xhttp.responseText;
+		}
+	}
+	
+</script>

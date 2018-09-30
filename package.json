@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Backend",
+  "author": "Tyler James",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.16.0"
+  },
+  "main": "db_connection.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
