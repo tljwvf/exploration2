@@ -16,7 +16,7 @@ var con = mysql.createConnection({
 })*/
 
 app.get('/test', function(req,res){
-	res.send("You are e piece of degenerate human garbage");
+	res.send("This is a response from Node");
 });
 
 app.get('/', function(req, res) {
